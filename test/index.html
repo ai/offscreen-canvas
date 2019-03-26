@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Offscreen Canvas Demo</title>
+    <link rel="preload" as="script" href="./worker.js">
+  </head>
+  <style>
+    canvas {
+      display: block;
+      background: #ccc;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 150px;
+    }
+  </style>
+  <body>
+    <canvas width="150" height="150"></canvas>
+    <button>Blink</button>
+    <p></p>
+    <script defer src="./index.js"></script>
+  </body>
+</html>
