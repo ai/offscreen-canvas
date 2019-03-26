@@ -77,7 +77,7 @@ Your bundle will add cache buster to bundle names, so bundle names will
 change every time you deploy application. This is why we need to store
 path to `worker.js` in HTML:
 
-```html
+```diff html
 +   <link type="preload" as="script" href="./worker.js">
   </head>
 ```
