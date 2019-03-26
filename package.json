@@ -68,7 +68,19 @@
       "js",
       "WebGL or",
       "2D",
-      "JS"
+      "JS",
+      "webpack",
+      "bundler",
+      "diff",
+      "ImageBitmapLoader",
+      "ImageLoader",
+      "workerUrl",
+      "querySelector",
+      "addEventListener",
+      "createWorker",
+      "insideWorker",
+      "isWorker",
+      "src"
     ]
   }
 }
