@@ -1,7 +1,7 @@
 # Offscreen Canvas Polyfill
 
-JS polyfill (375 bytes) for `OffscreenCanvas` to move Three.js, WebGL or 2D
-canvas to Web Worker.
+JS polyfill (**375 bytes**) for `OffscreenCanvas` to move **Three.js**,
+**WebGL** or 2D canvas to **Web Worker**.
 
 It will improve performance in Chrome and will load worker by `<script>`
 in Firefox, Safari, and other browsers.
