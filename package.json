@@ -1,12 +1,13 @@
 {
   "name": "offscreen-canvas",
   "version": "0.0.0",
-  "description": "Polyfill for Offscreen Canvas to move WebGL/2D canvas to Web Worker",
+  "description": "Polyfill for OffscreenCanvas to move Three.js/WebGL/2D canvas to Web Worker",
   "keywords": [
     "offscreen canvas",
     "canvas",
     "webgl",
-    "polyfill"
+    "polyfill",
+    "three.js"
   ],
   "scripts": {
     "spell": "yaspeller *.md",
@@ -63,7 +64,11 @@
     "ignoreCapitalization": true,
     "dictionary": [
       "Versioning",
-      "Polyfill"
+      "polyfill",
+      "js",
+      "WebGL or",
+      "2D",
+      "JS"
     ]
   }
 }
