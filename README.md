@@ -35,3 +35,16 @@ const worker = insideWorker(e => {
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
        alt="Sponsored by Evil Martians" width="236" height="54">
 </a>
+
+## Usage
+
+### Step 1
+
+Create separated bundle in webpack, Parcel or any other bundler:
+
+```diff js
+entry: {
+  app: './src/app.js',
++ worker: './src/worker.js'
+}
+```
