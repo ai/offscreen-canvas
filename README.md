@@ -6,6 +6,9 @@ JS polyfill (**375 bytes**) for `OffscreenCanvas` to move **Three.js**,
 It will improve performance in Chrome and will load worker by `<script>`
 in Firefox, Safari, and other browsers.
 
+The tutorial for this library:
+**[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]**.
+
 ```js
 // index.js
 import createWorker from 'offscreen-canvas/create-worker'
@@ -30,6 +33,8 @@ const worker = insideWorker(e => {
   }
 })
 ```
+
+[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]: https://dev.to/evilmartians/faster-webgl-three-js-with-offscreencanvas-and-web-worker-57ha-temp-slug-9930774
 
 <a href="https://evilmartians.com/?utm_source=offscreen-canvas">
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
