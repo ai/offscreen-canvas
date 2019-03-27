@@ -81,7 +81,9 @@
       "insideWorker",
       "isWorker",
       "src",
-      "rel"
+      "rel",
+      "OffscreenCanvas",
+      "WebGL"
     ]
   }
 }
