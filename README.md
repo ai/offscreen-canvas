@@ -23,6 +23,7 @@ button.addEventListener('click', () => {
 ```
 
 ```js
+// worker.js
 import insideWorker from 'offscreen-canvas/inside-worker'
 
 const worker = insideWorker(e => {
