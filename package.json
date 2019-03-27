@@ -80,7 +80,8 @@
       "createWorker",
       "insideWorker",
       "isWorker",
-      "src"
+      "src",
+      "rel"
     ]
   }
 }
