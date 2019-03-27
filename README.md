@@ -87,7 +87,7 @@ Load worker in main `app.js`:
 ```js
 import createWorker from 'offscreen-canvas/create-worker'
 
-var workerUrl = document.querySelector('link').href
+var workerUrl = document.querySelector('[rel=preload][as=script]').href
 var canvas = document.querySelector('canvas')
 
 const worker = createWorker(canvas, workerUrl)
