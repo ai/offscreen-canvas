@@ -35,7 +35,7 @@ const worker = insideWorker(e => {
 })
 ```
 
-[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]: https://dev.to/evilmartians/faster-webgl-three-js-with-offscreencanvas-and-web-worker-57ha-temp-slug-9930774
+[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]: https://dev.to/evilmartians/faster-webgl-three-js-3d-graphics-with-offscreencanvas-and-web-workers-43he
 
 <a href="https://evilmartians.com/?utm_source=offscreen-canvas">
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
