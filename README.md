@@ -7,7 +7,7 @@ It will improve performance in Chrome and will load worker by `<script>`
 in Firefox, Safari, and other browsers.
 
 The tutorial for this library:
-**[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]**.
+**[Faster WebGL/Three.js 3D graphics with OffscreenCanvas and Web Workers]**.
 
 ```js
 // index.js
@@ -35,7 +35,7 @@ const worker = insideWorker(e => {
 })
 ```
 
-[Faster WebGL/Three.js with OffscreenCanvas and Web Worker]: https://dev.to/evilmartians/faster-webgl-three-js-3d-graphics-with-offscreencanvas-and-web-workers-43he
+[Faster WebGL/Three.js 3D graphics with OffscreenCanvas and Web Workers]: https://dev.to/evilmartians/faster-webgl-three-js-3d-graphics-with-offscreencanvas-and-web-workers-43he
 
 <a href="https://evilmartians.com/?utm_source=offscreen-canvas">
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
