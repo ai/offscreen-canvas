@@ -1,6 +1,6 @@
 {
   "name": "offscreen-canvas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Polyfill for OffscreenCanvas to move Three.js/WebGL/2D canvas to Web Worker",
   "keywords": [
     "offscreen canvas",
