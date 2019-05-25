@@ -20,6 +20,10 @@ var worker = insideWorker(function (e) {
       fill(worker.isWorker ? 'green' : 'red')
     }, 200)
   } else if (e.data === 'init') {
-    worker.post(Date.now() - start)
+    worker.post({ started: Date.now() - start })
   }
 })
+
+setInterval(function () {
+  worker.post({ ping: Date.now() })
+}, 1000)
