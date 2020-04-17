@@ -84,7 +84,7 @@ change every time you deploy application. This is why we need to store
 path to `worker.js` in HTML:
 
 ```diff html
-+   <link type="preload" as="script" href="./worker.js">
++   <link rel="preload" as="script" href="./worker.js">
   </head>
 ```
 
